@@ -18,6 +18,8 @@
 		817C607427EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C607327EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift */; };
 		9E4C4FC027EF0BF800A32556 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FBF27EF0BF800A32556 /* Colour.swift */; };
 		9E4C4FC227EF0C0300A32556 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C4FC127EF0C0300A32556 /* Theme.xcassets */; };
+		9E4C4FC427EF0FDE00A32556 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FC327EF0FDE00A32556 /* TabButton.swift */; };
+		9E4C4FC827EF109900A32556 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FC727EF109900A32556 /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		817C607327EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOutFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9E4C4FBF27EF0BF800A32556 /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
 		9E4C4FC127EF0C0300A32556 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		9E4C4FC327EF0FDE00A32556 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		9E4C4FC727EF109900A32556 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		9E4C4FBC27EF0B7A00A32556 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				9E4C4FC727EF109900A32556 /* MainScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 		9E4C4FBE27EF0B9100A32556 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				9E4C4FC327EF0FDE00A32556 /* TabButton.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -303,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4C4FC027EF0BF800A32556 /* Colour.swift in Sources */,
+				9E4C4FC827EF109900A32556 /* MainScreen.swift in Sources */,
 				817C605B27EF0A2A00611CE6 /* Persistence.swift in Sources */,
 				817C605E27EF0A2A00611CE6 /* GetOutFit.xcdatamodeld in Sources */,
+				9E4C4FC427EF0FDE00A32556 /* TabButton.swift in Sources */,
 				817C605427EF0A2800611CE6 /* ContentView.swift in Sources */,
 				817C605227EF0A2800611CE6 /* GetOutFitApp.swift in Sources */,
 			);
