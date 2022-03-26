@@ -16,6 +16,8 @@
 		817C606827EF0A2A00611CE6 /* GetOutFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C606727EF0A2A00611CE6 /* GetOutFitTests.swift */; };
 		817C607227EF0A2A00611CE6 /* GetOutFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C607127EF0A2A00611CE6 /* GetOutFitUITests.swift */; };
 		817C607427EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C607327EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift */; };
+		9E4C4FC027EF0BF800A32556 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C4FBF27EF0BF800A32556 /* Colour.swift */; };
+		9E4C4FC227EF0C0300A32556 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C4FC127EF0C0300A32556 /* Theme.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		817C606D27EF0A2A00611CE6 /* GetOutFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOutFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		817C607127EF0A2A00611CE6 /* GetOutFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOutFitUITests.swift; sourceTree = "<group>"; };
 		817C607327EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOutFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E4C4FBF27EF0BF800A32556 /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		9E4C4FC127EF0C0300A32556 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 		9E4C4FBD27EF0B8500A32556 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				9E4C4FBF27EF0BF800A32556 /* Colour.swift */,
+				9E4C4FC127EF0C0300A32556 /* Theme.xcassets */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4C4FC227EF0C0300A32556 /* Theme.xcassets in Resources */,
 				817C605927EF0A2A00611CE6 /* Preview Assets.xcassets in Resources */,
 				817C605627EF0A2A00611CE6 /* Assets.xcassets in Resources */,
 			);
@@ -295,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4C4FC027EF0BF800A32556 /* Colour.swift in Sources */,
 				817C605B27EF0A2A00611CE6 /* Persistence.swift in Sources */,
 				817C605E27EF0A2A00611CE6 /* GetOutFit.xcdatamodeld in Sources */,
 				817C605427EF0A2800611CE6 /* ContentView.swift in Sources */,
