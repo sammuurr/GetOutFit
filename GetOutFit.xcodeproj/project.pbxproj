@@ -98,6 +98,7 @@
 		817C605027EF0A2800611CE6 /* GetOutFit */ = {
 			isa = PBXGroup;
 			children = (
+				9E4C4FBB27EF0B7500A32556 /* UI */,
 				817C605127EF0A2800611CE6 /* GetOutFitApp.swift */,
 				817C605327EF0A2800611CE6 /* ContentView.swift */,
 				817C605527EF0A2A00611CE6 /* Assets.xcassets */,
@@ -131,6 +132,37 @@
 				817C607327EF0A2A00611CE6 /* GetOutFitUITestsLaunchTests.swift */,
 			);
 			path = GetOutFitUITests;
+			sourceTree = "<group>";
+		};
+		9E4C4FBB27EF0B7500A32556 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E4C4FBE27EF0B9100A32556 /* Component */,
+				9E4C4FBD27EF0B8500A32556 /* Theme */,
+				9E4C4FBC27EF0B7A00A32556 /* Screen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9E4C4FBC27EF0B7A00A32556 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		9E4C4FBD27EF0B8500A32556 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9E4C4FBE27EF0B9100A32556 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
